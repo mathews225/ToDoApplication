@@ -5,10 +5,8 @@ using System.Text;
 namespace ToDoApplication {
 	public class Cli {
 
-		public static string DisplayLine(string prompt) {
+		public static void DisplayLine(string prompt) {
 			Console.Write($"{prompt}\n");
-			var response = Console.ReadLine();
-			return response;
 		}
 
 		public static string GetString(string prompt) {

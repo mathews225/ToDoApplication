@@ -14,7 +14,7 @@ namespace ToDoApplication {
 
 		void ListAllToDos() {
 			Cli.DisplayLine("Called ListAllToDos()");
-		} 
+		}
 
 
 		void Run() {
@@ -35,7 +35,7 @@ namespace ToDoApplication {
 			}
 		}
 
-		void DisplayMenu() {
+		int DisplayMenu() {
 			Cli.DisplayLine("Menu:");
 			Cli.DisplayLine("1 | List All ToDo");
 			Cli.DisplayLine("2 | Exit");
