@@ -12,8 +12,9 @@ namespace ToDoApplication {
 	class Program {
 		static void Main(string[] args) {
 
-			
-			Console.WriteLine("Hello World!");
+
+			var input = Cli.GetString("Enter a string:\n");
+			Console.WriteLine($"\nInput is '{input}'");
 
 			
 		}
